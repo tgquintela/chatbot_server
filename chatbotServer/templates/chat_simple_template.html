@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Chatbot</title>
+    </head>
+    <body>
+        <p1>
+            Chatbot
+        </p1>
+        <form method=POST action="{{ url_for('ask') }}">
+            <input type=text name="Enter your message" value="" maxlength="100">
+            <input type="submit" value="Submit" >
+        </form>
+    </body>
+</html>
